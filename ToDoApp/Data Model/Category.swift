@@ -12,6 +12,7 @@ import RealmSwift
 class Category: Object {
     @objc dynamic var name: String = ""
     @objc dynamic var dateCreated: Date?
+    @objc dynamic var colorHex: String = ""
     let items = List<Item>()
     
 }
